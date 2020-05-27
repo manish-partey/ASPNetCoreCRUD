@@ -1,0 +1,243 @@
+﻿body {
+    font-family: Tahoma;
+    font-size: 12px;
+    background: url(../images/body_bg.jpg) no-repeat left top;
+}
+
+.blacktext {
+    color: #000;
+    font-weight: bold;
+    text-align: right
+}
+
+    .blacktext span {
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+
+    .blacktext a {
+        color: #000;
+    }
+
+.marrontextbold {
+    color: #9F1A06;
+    font-weight: bold;
+}
+
+    .marrontextbold span {
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    .marrontextbold a {
+        color: #9F1A06;
+    }
+
+.navigation {
+    background: #9F1A06;
+    text-align: center;
+    color: #fff;
+}
+
+.footer {
+    background: #ccc;
+    height: 75px;
+    padding-right: 8px;
+    padding-left: 13px;
+    width: 100%
+}
+
+    .footer img {
+        padding-right: 7px;
+    }
+
+.footer_text {
+    color: #660000;
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+    .footer_text a {
+        color: #660000;
+    }
+
+    .footer_text span {
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+
+    .footer_text p {
+        padding: 0px;
+        margin: 0px;
+        padding-top: 8px;
+    }
+
+.marron_text {
+    font-size: 12px;
+    color: #9E0707;
+}
+
+.headingmaroon {
+    font-size: 24px;
+    color: #9E0707;
+}
+
+.rightside {
+    vertical-align: top
+}
+
+    .rightside ul {
+        padding: 0px;
+        margin: 0px;
+        padding-left: 7px;
+        padding-right: 22px;
+    }
+
+        .rightside ul li {
+            list-style: none;
+            background: url(../images/arrow.jpg) no-repeat 0px 7px;
+            border-bottom: 1px dashed #B2B2B2;
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+
+            .rightside ul li.border {
+                border: none
+            }
+
+            .rightside ul li a {
+                text-decoration: none;
+                font-size: 12px;
+                color: #000;
+                padding-left: 16px;
+            }
+
+.middleside {
+    background: url(../images/black_bg.jpg) no-repeat;
+    width: 461px;
+    height: 165px;
+    padding-left: 37px;
+    vertical-align: top
+}
+
+.signup {
+    font-size: 18px;
+    color: #fff;
+    padding-top: 40px;
+}
+
+.texbox {
+    border: 1px solid #fff;
+    background: #333333;
+    width: 225px;
+    height: 26px;
+    vertical-align: top;
+    color: #fff;
+}
+
+.content {
+    background: #fff;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.leftside {
+    padding-left: 11px;
+    vertical-align: top
+}
+
+    .leftside ul {
+        padding: 0px;
+        margin: 0px;
+        padding-left: 6px;
+        padding-top: 15px;
+        display: block
+    }
+
+        .leftside ul li {
+            list-style: none;
+            font-size: 12px;
+            color: #9E0707;
+            padding-bottom: 10px;
+            display: block;
+        }
+
+.whitetext {
+    font-size: 18px;
+    color: #fff;
+}
+
+.tictekdetails {
+    vertical-align: top
+}
+
+    .tictekdetails ul {
+        padding: 0px;
+        margin: 0px;
+        border-right: 1px dashed #A0A0A0;
+        padding-right: 24px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        padding-left: 22px;
+        vertical-align: top
+    }
+
+        .tictekdetails ul li {
+            list-style: none;
+            text-decoration: underline;
+            color: #000;
+            padding-top: 5px;
+        }
+
+.headingwhite {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.greybox {
+    background: #E5E5E5;
+    padding-left: 12px;
+    padding-right: 6px;
+}
+
+    .greybox img {
+        padding-right: 5px;
+    }
+
+.greytext {
+    color: #666255;
+    background: #E5E5E5;
+}
+
+.redishtext {
+    color: #9F2E06;
+    font-weight: bold
+}
+
+.tourbox {
+    border-left: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+    padding-left: 19px;
+}
+
+.maroontext {
+    color: #660000;
+    font-weight: bold;
+}
+
+.travelbox {
+    border-left: 1px solid #CFCFCF;
+    border-right: 1px solid #CFCFCF;
+    background: #FEE4BA;
+    padding-right: 8px;
+    line-height: 15px;
+    padding-left: 7px;
+    vertical-align: top;
+}
+
+    .travelbox img {
+        padding-right: 7px;
+    }
