@@ -19,6 +19,8 @@ C:\Users\Manish.partey\source\repos\EATN\EATN\obj\Debug\netcoreapp2.2\EATN.Razor
 C:\Users\Manish.partey\source\repos\EATN\EATN\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\Manish.partey\source\repos\EATN\EATN\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Manish.partey\source\repos\EATN\EATN\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Manish.partey\source\repos\EATN\EATN\obj\Debug\netcoreapp2.2\Razor\Views\Posts\Details.cshtml.g.cs
+C:\Users\Manish.partey\source\repos\EATN\EATN\obj\Debug\netcoreapp2.2\Razor\Views\Posts\Index.cshtml.g.cs
 C:\Users\Manish.partey\source\repos\EATN\EATN\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Manish.partey\source\repos\EATN\EATN\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
 C:\Users\Manish.partey\source\repos\EATN\EATN\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -33,3 +35,4 @@ C:\Users\Manish.partey\source\repos\EATN\EATN\obj\Debug\netcoreapp2.2\EATN.dll
 C:\Users\Manish.partey\source\repos\EATN\EATN\obj\Debug\netcoreapp2.2\EATN.pdb
 C:\Users\Manish.partey\source\repos\EATN\EATN\obj\Debug\netcoreapp2.2\EATN.genruntimeconfig.cache
 C:\Users\Manish.partey\source\repos\EATN\EATN\obj\Debug\netcoreapp2.2\EATN.csproj.CopyComplete
+C:\Users\Manish.partey\source\repos\EATN\EATN\obj\Debug\netcoreapp2.2\EATN.csprojAssemblyReference.cache

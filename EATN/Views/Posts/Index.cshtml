@@ -1,7 +1,30 @@
-﻿@model EATN.Models.Posts
+﻿@model IEnumerable<EATN.Models.Posts>
 @{
     ViewData["Title"] = "Index";
-}
+}   
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            @foreach (var posts in Model)
+            {
+                <div class="post-preview">
+                    <a href="post.html">
+                        <h2 class="post-title">
+                            @posts.ShortDescription
+                        </h2>
+                        <h3 class="post-subtitle">
+                            @posts.LongDescription
+                        </h3>
+                    </a>
+                    <p class="post-meta">
+                        Posted by
+                        <a href="#">Start Bootstrap</a>
+                        on @posts.LastModified
+                    </p>
+                </div>
+                <hr />
+            }
 
-<h1>Index</h1>
-
+        </div>
+    </div>
+</div>

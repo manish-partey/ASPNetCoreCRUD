@@ -7,6 +7,7 @@
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -15,7 +16,6 @@
               crossorigin="anonymous"
               integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" />
     </environment>
-    <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body class="container">
     <header>
@@ -92,17 +92,12 @@
         <nav class="navbar navbar-expand-md navbar-dark text-capitalize">
             <div class="navbar-collapse bg-danger " id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link text-white" href="Holidays.html">Post</a></li>
+                    <li class="nav-item"><a asp-controller="Posts" asp-action="Index"  class="nav-link text-white">Post</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="Accomodation.html">Polls</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="Mountainsafaris.html">Community</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="Hotels.html">Newsletters</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="Lodges.html">Knowledge Base</a></li>
-                    @*<li class="nav-item"><a class="nav-link text-white" href="Resorts.html">Resorts</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="Apartments.html">Apartments</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="Family.html">Family safaris</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="Walking.html">Walking safaris</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="Coastal.html">Coastal safaris</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="Water.html">Water Rafting</a></li>*@
+                    
                 </ul>
             </div>
         </nav>

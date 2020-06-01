@@ -20,5 +20,15 @@ namespace EATN.Controllers
             var Posts = posts.GetAllPosts().OrderBy(e => e.LastModified);
             return View(Posts);
         }
+
+        public IActionResult Details(int id)
+        {
+            var Posts = posts.GetPostByID(id);
+            if (Posts == null)
+                return NotFound();
+
+            return View(Posts);
+            
+        }
     }
 }
