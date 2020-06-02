@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace EATN.Migrations
 {
-    public partial class Initial : Migration
+    public partial class InitialMigration_1 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -53,6 +53,7 @@ namespace EATN.Migrations
                 {
                     PostID = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    PostedBy = table.Column<string>(nullable: true),
                     ShortDescription = table.Column<string>(nullable: true),
                     LongDescription = table.Column<string>(nullable: true),
                     LastModified = table.Column<DateTime>(nullable: false)
@@ -167,6 +168,11 @@ namespace EATN.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
+
+            migrationBuilder.InsertData(
+                table: "Posts",
+                columns: new[] { "PostID", "LastModified", "LongDescription", "PostedBy", "ShortDescription" },
+                values: new object[] { 1, new DateTime(2020, 6, 2, 13, 29, 32, 785, DateTimeKind.Local).AddTicks(7473), "Long Description", "Manish", "Short Description" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",

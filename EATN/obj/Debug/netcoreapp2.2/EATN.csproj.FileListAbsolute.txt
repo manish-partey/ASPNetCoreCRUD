@@ -8,6 +8,7 @@ C:\Users\Manish.partey\source\repos\EATN\EATN\bin\Debug\netcoreapp2.2\EATN.dll
 C:\Users\Manish.partey\source\repos\EATN\EATN\bin\Debug\netcoreapp2.2\EATN.pdb
 C:\Users\Manish.partey\source\repos\EATN\EATN\bin\Debug\netcoreapp2.2\EATN.Views.dll
 C:\Users\Manish.partey\source\repos\EATN\EATN\bin\Debug\netcoreapp2.2\EATN.Views.pdb
+C:\Users\Manish.partey\source\repos\EATN\EATN\obj\Debug\netcoreapp2.2\EATN.csprojAssemblyReference.cache
 C:\Users\Manish.partey\source\repos\EATN\EATN\obj\Debug\netcoreapp2.2\EATN.csproj.CoreCompileInputs.cache
 C:\Users\Manish.partey\source\repos\EATN\EATN\obj\Debug\netcoreapp2.2\EATN.RazorAssemblyInfo.cache
 C:\Users\Manish.partey\source\repos\EATN\EATN\obj\Debug\netcoreapp2.2\EATN.RazorAssemblyInfo.cs
@@ -35,4 +36,3 @@ C:\Users\Manish.partey\source\repos\EATN\EATN\obj\Debug\netcoreapp2.2\EATN.dll
 C:\Users\Manish.partey\source\repos\EATN\EATN\obj\Debug\netcoreapp2.2\EATN.pdb
 C:\Users\Manish.partey\source\repos\EATN\EATN\obj\Debug\netcoreapp2.2\EATN.genruntimeconfig.cache
 C:\Users\Manish.partey\source\repos\EATN\EATN\obj\Debug\netcoreapp2.2\EATN.csproj.CopyComplete
-C:\Users\Manish.partey\source\repos\EATN\EATN\obj\Debug\netcoreapp2.2\EATN.csprojAssemblyReference.cache

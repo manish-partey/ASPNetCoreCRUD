@@ -4,6 +4,7 @@ using System.Text;
 using EATN.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query.ExpressionTranslators;
 
 namespace EATN.Data
 {
@@ -15,5 +16,21 @@ namespace EATN.Data
 		}
 
 		public DbSet<Posts> Posts { get; set; }
+
+		protected override void OnModelCreating(ModelBuilder builder)
+		{
+			base.OnModelCreating(builder);
+
+			builder.Entity<Posts>().HasData(
+				new Posts
+				{
+					PostID = 1,
+					PostedBy = "Manish",
+					ShortDescription = "Short Description",
+					LongDescription = "Long Description",
+					LastModified = System.DateTime.Now
+				}
+				) ;
+		}
 	}
 }

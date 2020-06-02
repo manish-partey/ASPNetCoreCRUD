@@ -36,6 +36,16 @@ namespace EATN.Migrations
                     b.HasKey("PostID");
 
                     b.ToTable("Posts");
+
+                    b.HasData(
+                        new
+                        {
+                            PostID = 1,
+                            LastModified = new DateTime(2020, 6, 2, 13, 29, 32, 785, DateTimeKind.Local).AddTicks(7473),
+                            LongDescription = "Long Description",
+                            PostedBy = "Manish",
+                            ShortDescription = "Short Description"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

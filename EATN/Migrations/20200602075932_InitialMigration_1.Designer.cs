@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EATN.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20200601094125_Initial")]
-    partial class Initial
+    [Migration("20200602075932_InitialMigration_1")]
+    partial class InitialMigration_1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -31,11 +31,23 @@ namespace EATN.Migrations
 
                     b.Property<string>("LongDescription");
 
+                    b.Property<string>("PostedBy");
+
                     b.Property<string>("ShortDescription");
 
                     b.HasKey("PostID");
 
                     b.ToTable("Posts");
+
+                    b.HasData(
+                        new
+                        {
+                            PostID = 1,
+                            LastModified = new DateTime(2020, 6, 2, 13, 29, 32, 785, DateTimeKind.Local).AddTicks(7473),
+                            LongDescription = "Long Description",
+                            PostedBy = "Manish",
+                            ShortDescription = "Short Description"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
